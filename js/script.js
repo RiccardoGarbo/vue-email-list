@@ -8,6 +8,7 @@ const app = createApp({
     data: () => ({
         listEmail: []
     }),
+
     // push 10 email nell'array listEmail
     created() {
         for (let i = 0; i < 10; i++) {

@@ -18,7 +18,7 @@
 
 <body>
     <div id="root">
-        <ul>
+        <ul v-if="listEmail.length >= 10">
             <li v-for="(email,i) in listEmail" key="i">
                 {{email}}
             </li>
